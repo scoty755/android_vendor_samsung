@@ -21,7 +21,7 @@ ifneq ($(filter klte kltedv kltespr klteusc kltevzw kltekdi,$(TARGET_DEVICE)),)
 include $(CLEAR_VARS)
 LOCAL_MODULE := TimeService
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := proprietary/app/TimeService.apk
+LOCAL_SRC_FILES := proprietary/app/TimeService/TimeService.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := APPS
